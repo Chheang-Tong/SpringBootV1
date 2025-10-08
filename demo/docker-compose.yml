@@ -1,0 +1,4 @@
+services:
+  app:
+    environment:
+      APP_JWT_SECRET: ${APP_JWT_SECRET} 

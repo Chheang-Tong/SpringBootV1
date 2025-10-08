@@ -1,0 +1,45 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: demo
+      POSTGRES_USER: demo
+      POSTGRES_PASSWORD: demo
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U demo -d demo"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: demo-app:latest
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      # Load from .env (recommended) or inline here:
+      APP_JWT_SECRET: ${APP_JWT_SECRET:?set-in-.env}
+      APP_JWT_EXP_MINUTES: ${APP_JWT_EXP_MINUTES:-60}
+
+      # Use the service name "db" (not localhost) inside the network
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/demo
+      SPRING_DATASOURCE_USERNAME: demo
+      SPRING_DATASOURCE_PASSWORD: demo
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+
+      # Optional: pick a Spring profile for container runs
+      SPRING_PROFILES_ACTIVE: docker
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+
+volumes:
+  pgdata:
