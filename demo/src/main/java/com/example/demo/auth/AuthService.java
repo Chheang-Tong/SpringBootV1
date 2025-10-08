@@ -26,10 +26,10 @@ public class AuthService {
     }
 
     public AuthResponse register(RegisterRequest req) {
-        if (users.existsByEmail(req.email()))
-            throw new IllegalArgumentException("Email already registered");
+        // if (users.existsByEmail(req.email()))
+        // throw new IllegalArgumentException("Email already registered");
         if (users.existsByEmail(req.email())) {
-            throw new EmailAlreadyRegisteredException(req.email());
+            throw new EmailAlreadyRegisteredException(req.email()); // to create custom exception
         }
         User u = new User();
         u.setEmail(req.email());
