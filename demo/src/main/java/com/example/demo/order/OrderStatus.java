@@ -1,5 +1,5 @@
 package com.example.demo.order;
 
-public class OrderStatus {
-
+public enum OrderStatus {
+    PENDING, PAID, SHIPPED, COMPLETED, CANCELED
 }

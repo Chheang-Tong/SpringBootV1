@@ -1,5 +1,5 @@
 package com.example.demo.payment;
 
-public class PaymentMethod {
-
+public enum PaymentMethod {
+    CASH, CARD, QR, WALLET
 }

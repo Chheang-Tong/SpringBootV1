@@ -1,5 +1,4 @@
 package com.example.demo.auth;
 
-public class AuthResponse {
-
+public record AuthResponse(String accessToken) {
 }

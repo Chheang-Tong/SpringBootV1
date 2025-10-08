@@ -1,5 +1,5 @@
 package com.example.demo.payment;
 
-public class PaymentStatus {
-
+public enum PaymentStatus {
+    PENDING, AUTHORIZED, CAPTURED, FAILED, REFUNDED
 }
