@@ -1,7 +1,6 @@
 package com.example.demo.cart;
 
 import com.example.demo.common.CurrentUser;
-import com.example.demo.user.User;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;

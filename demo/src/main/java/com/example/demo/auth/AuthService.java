@@ -26,21 +26,44 @@ public class AuthService {
     }
 
     public AuthResponse register(RegisterRequest req) {
-        // if (users.existsByEmail(req.email()))
-        // throw new IllegalArgumentException("Email already registered");
         if (users.existsByEmail(req.email())) {
-            throw new EmailAlreadyRegisteredException(req.email()); // to create custom exception
+            throw new EmailAlreadyRegisteredException(req.email());
         }
+
         User u = new User();
+        u.setFirstName(req.firstName());
+        u.setLastName(req.lastName());
+        u.setPhoneNumber(req.phoneNumber());
+        u.setGender(req.gender());
+        u.setAddress(req.address());
         u.setEmail(req.email());
         u.setPassword(encoder.encode(req.password()));
-        u.setRoles(Set.of("USER"));
+        u.setRoles(Set.of("USER")); // default role
+        // surname will be auto-built by @PrePersist/@PreUpdate in your entity
         users.save(u);
-        return new AuthResponse(jwt.generateToken(u.getEmail()));
+
+        String token = jwt.generateToken(u.getEmail());
+        return new AuthResponse(
+                u.getId(), u.getFirstName(), u.getLastName(), u.getSurname(),
+                u.getEmail(), u.getPhoneNumber(), u.getGender(), u.getAddress(),
+                u.getRoles(), token);
     }
 
     public AuthResponse login(LoginRequest req) {
         authManager.authenticate(new UsernamePasswordAuthenticationToken(req.email(), req.password()));
-        return new AuthResponse(jwt.generateToken(req.email()));
+        User u = users.findByEmail(req.email())
+                .orElseThrow(() -> new RuntimeException("User not found"));
+        String token = jwt.generateToken(u.getEmail());
+        return new AuthResponse(
+                u.getId(),
+                u.getFirstName(),
+                u.getLastName(),
+                u.getSurname(),
+                u.getEmail(),
+                u.getPhoneNumber(),
+                u.getGender(),
+                u.getAddress(),
+                u.getRoles(),
+                token);
     }
 }

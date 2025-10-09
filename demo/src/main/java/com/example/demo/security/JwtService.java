@@ -23,10 +23,10 @@ public class JwtService {
         this.expMinutes = expMinutes;
     }
 
-    public String generateToken(String subject) {
+    public String generateToken(String users) {
         Instant now = Instant.now();
         return Jwts.builder()
-                .subject(subject)
+                .subject(users)
                 .issuedAt(Date.from(now))
                 .expiration(Date.from(now.plusSeconds(expMinutes * 60)))
                 .signWith(key)

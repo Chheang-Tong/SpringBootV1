@@ -9,15 +9,15 @@ VALUES
    '098765432', 'Female', 'Phnom Penh')
 ON CONFLICT (email) DO NOTHING;
 
--- roles: link by user_id (lookup by email to get the generated id)
-INSERT INTO user_roles (user_id, role)
-SELECT u.id, 'ADMIN' FROM users u WHERE u.email = 'admin@example.com'
+-- USER ROLES
+INSERT INTO user_roles (user_id, roles) VALUES
+(1, 'ADMIN'), (1, 'USER'),
+(2, 'USER')
 ON CONFLICT DO NOTHING;
 
-INSERT INTO user_roles (user_id, role)
-SELECT u.id, 'USER' FROM users u WHERE u.email = 'admin@example.com'
-ON CONFLICT DO NOTHING;
-
-INSERT INTO user_roles (user_id, role)
-SELECT u.id, 'USER' FROM users u WHERE u.email = 'user1@example.com'
-ON CONFLICT DO NOTHING;
+-- PRODUCTS
+INSERT INTO products (id, sku, name, description, price, stock, image_url) VALUES
+(1, 'SKU-ESP', 'Espresso', 'Strong single shot coffee', 2.00, 100, NULL),
+(2, 'SKU-LAT', 'Latte', 'Creamy coffee with milk', 3.00, 120, NULL),
+(3, 'SKU-MOC', 'Mocha', 'Chocolate coffee blend', 3.50, 80, NULL)
+ON CONFLICT (id) DO NOTHING;
