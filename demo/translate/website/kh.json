@@ -1,0 +1,104 @@
+{
+  "website": {
+    "get_started": "Get Start for Free",
+    "home": {
+      "label": "Home",
+      "title": "New Shop",
+      "sub_title": "Fresh new shops are joining every day! Check out the latest merchants in our community and discover exciting products, services, and local favorites.",
+      "title_01": "Flexible based on your business",
+      "sub_title_01": "From family business to modern online sellers, we provide the right tools to help you manage, grow, and succeed in today’s digital marketplace.",
+      "department_store": "Department Store",
+      "food_store": "Food Store",
+      "online_store": "Online Store",
+      "title_02": "Let's grow with Pintel",
+      "sub_title_02": "Connect real businesses and people to your store in 10 minutes!",
+      "title_03": "Create your store with Pintel",
+      "sub_title_03": "Connect all your sales channels to one store.",
+      "title_04": "Create your dream store in 5 minutes",
+      "sub_title_04": "Create your online store and start selling immediately.",
+      "title_05": "A digital sales platform",
+      "sub_title_05": "Make your sales easy and profitable with Pintel",
+      "title_06": "Keep customers updated with your products",
+      "sub_title_06": "Stay in touch and keep your customers engaged.",
+      "title_07": "Download the Pintel app now",
+      "sub_title_07": "You can download the Pintel app via the App Store or Google Play."
+    },
+    "store": {
+      "label": "Store",
+      "new_store": "New Store",
+      "with_promotion": "With Promotion",
+      "recommended_for_you": "Recommended for You",
+      "all_store": "All Stores"
+    },
+    "pricing": {
+      "label": "Pricing",
+      "price": "Prices",
+      "find_the_right_price_for_your_business": "Find the right price for your business.",
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "free_trial": "Free Trial",
+      "food_shop_starter": {
+        "label": "Food Shop Starter",
+        "note": "POS system, basic menu setup, QR code ordering, dine-in/takeaway orders",
+        "price": "{{count}} $/month",
+        "get_option": {
+          "label": "Get Option",
+          "basic_pro": "Basic Pro",
+          "product_management": "Product Management",
+          "customer_management": "Customer Management",
+          "choose_plan": "Choose Plan"
+        }
+      },
+      "food_shop_business": {
+        "label": "Food Shop Business",
+        "note": "All Growth + Inventory management, supplier management, Expense, Basic Financial Report (IS)",
+        "price": "{{count}} $/month",
+        "get_option": {
+          "label": "Get Option",
+          "all_filter": "All Features",
+          "priority_support": "Priority Support",
+          "advanced_analytics": "Advanced Analytics",
+          "custom_integrations": "Custom Integrations",
+          "choose_plan": "Choose Plan"
+        }
+      },
+      "food_shop_growth": {
+        "label": "Food Shop Growth",
+        "note": "All Starter + Organization Unit (Group Business), Table management, delivery integration, basic reporting, promotions & loyalty",
+        "price": "{{count}} $/month",
+        "get_option": {
+          "label": "Get Option",
+          "analytics": "Analytics",
+          "advanced_pos": "Advanced Pos",
+          "multi_channel": "Multi Channel",
+          "inventory_management": "Inventory Management",
+          "choose_plan": "Choose Plan"
+        }
+      },
+      "food_shop_enterprise": {
+        "label": "Food Shop Enterprise",
+        "note": "All Business + Multi-branch dashboard, advanced analytics, API integration, custom branding",
+        "price": "{{count}} $/month",
+        "get_option": {
+          "label": "Get Option",
+          "white_label": "White Label",
+          "dedicate_support": "Dedicated Support",
+          "custom_development": "Custom Development",
+          "unlimited_everything": "Unlimited Everything",
+          "choose_plan": "Choose Plan"
+        }
+      },
+      "footer": {
+        "blog": "Blog",
+        "about_us": "About Us",
+        "support": "Support",
+        "store": "Store",
+        "community": "Community",
+        "pricing": "Pricing",
+        "address": "House No. 466, Beton Street, Dei Thmey Village, Kouk Khleang Sangkat, Sen Sok Khan, Phnom Penh, Cambodia",
+        "copyright": "© 2025 Copyright by PINTEL v1.0.63",
+        "privacy_policy": "Privacy & Policy"
+      }
+    }
+  }
+}

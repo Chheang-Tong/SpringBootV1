@@ -1,0 +1,907 @@
+{
+  "shop": {
+    "owner": "Store Owner",
+    "about_system": "About System",
+    "version": "Version",
+    "address": "#466, St Betong, Dey Thmey Village, Kouk Khleang Commune, Sen Sok District, Phnom Penh, Cambodia",
+    "auth": {
+      "label": "Login to your account",
+      "sign_in": "Sign In",
+      "sign_up": "Sign Up",
+      "sign_out": "Sign Out",
+      "log_in": "Log In",
+      "log_out": "Log Out",
+      "email": "Email",
+      "phone_number": "Phone Number",
+      "password": "Password",
+      "confirm_password": "Confirm Password",
+      "forgot_password": "Forgot Password?",
+      "reset_password": "Reset Password"
+    },
+    "home": {
+      "label": "Home",
+      "order": "Order",
+      "in_progress": "In Progress",
+      "completed": "Completed",
+      "calendar": {
+        "label": "Calendar",
+        "today": "Today",
+        "yesterday": "Yesterday",
+        "this_week": "This Week",
+        "this_month": "This Month",
+        "last_3_month": "Last 3 Month",
+        "last_6_month": "Last 6 Month",
+        "select_range": "Select Range",
+        "clear": "Clear"
+      },
+      "search": "Search",
+      "status": {
+        "label": "Status",
+        "cancelled": "Cancelled",
+        "completed": "Completed",
+        "out_for_delivery": "Out for Delivery",
+        "processing": "Processing",
+        "pending": "Pending",
+        "confirmed": "Confirmed"
+      },
+      "payment_status": {
+        "label": "Payment Status",
+        "paid": "Paid",
+        "expired": "Expired",
+        "cancelled": "Cancelled",
+        "refunded": "Refunded",
+        "failed": "Failed",
+        "processing": "Processing"
+      },
+      "order_by": {
+        "label": "Order By",
+        "dine_in_order": "Dine-in Order",
+        "gift_order": "Gift Order",
+        "pre_order": "Pre-order",
+        "message_order": "Message Order",
+        "phone_order": "Phone Order",
+        "reservation": "Reservation",
+        "takeaway_order": "Takeaway Order",
+        "pickup_order": "Pickup Order",
+        "delivery_order": "Delivery Order",
+        "offline_order": "Offline Order",
+        "online_order": "Online Order"
+      },
+      "clear": "Clear",
+      "n.o": "No.",
+      "invoice": "Invoice",
+      "customer": {
+        "label": "Customer",
+        "cancelled": "Cancelled",
+        "waiting": "Waiting",
+        "completed": "Completed"
+      },
+      "product": "Product",
+      "date": "Date",
+      "quick_view": {
+        "label": "Quick View",
+        "n.o": "No.",
+        "product": "Product",
+        "price": "Price($)",
+        "quantity": "Quantity",
+        "sub_total": "Sub Total($)",
+        "discount": "Discount($)",
+        "grand_total": "Grand Total($)",
+        "seconds": "Seconds",
+        "minutes": "Minutes",
+        "hour": "Hour",
+        "status": {
+          "label": "Status",
+          "cancelled": {
+            "label": "Cancelled",
+            "by_customer": "Cancelled by Customer",
+            "order_cancellation": "Order Cancellation"
+          },
+          "completed": "Completed",
+          "out_for_delivery": "Out for Delivery",
+          "processing": "Processing",
+          "pending": "Pending",
+          "confirmed": "Confirmed",
+          "account": "Account"
+        }
+      }
+    },
+    "sale": {
+      "label": "Sale",
+      "calendar": "Calendar",
+      "search": "Search",
+      "status": {
+        "label": "Status",
+        "cancelled": "Cancelled",
+        "completed": "Completed",
+        "out_for_delivery": "Out for Delivery",
+        "processing": "Processing",
+        "pending": "Pending",
+        "confirmed": "Confirmed"
+      },
+      "payment_status": {
+        "label": "Payment Status",
+        "paid": "Paid",
+        "expired": "Expired",
+        "cancelled": {
+          "label": "Cancelled",
+          "cancelled_by_customer": "Cancelled by Customer",
+          "order_cancellation": "Order Cancellation"
+        },
+        "refunded": "Refunded",
+        "failed": "Failed",
+        "processing": "Processing"
+      },
+      "order_by": {
+        "label": "Order By",
+        "dine_in_order": "Dine-in Order",
+        "gift_order": "Gift Order",
+        "pre_order": "Pre-order",
+        "message_order": "Message Order",
+        "phone_order": "Phone Order",
+        "reservation_order": "Reservation Order"
+      },
+      "clear": "Clear",
+      "n.o": "No.",
+      "invoice": "Invoice",
+      "name": "Name",
+      "product": "Product",
+      "date": "Date",
+      "quick_view": {
+        "label": "Quick View",
+        "price": "Price($)",
+        "qty": "Qty",
+        "sub_total": "Sub Total($)",
+        "discount": "Discount($)",
+        "grand_total": "Grand Total($)",
+        "seconds": "Seconds",
+        "minutes": "Minutes",
+        "hour": "Hour"
+      }
+    },
+    "shipping": {
+      "label": "Shipping",
+      "n.o": "No.",
+      "types": "Types",
+      "price": "Price($)",
+      "date": "Date",
+      "status": {
+        "label": "Status",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "edit": {
+        "label": "Edit",
+        "edit_shipping_method": "Edit Shipping Method",
+        "create_shipping_method": "CreateShipping Method",
+        "name": "Name",
+        "type": "Type",
+        "price": "Price($)",
+        "decription": "Description",
+        "allow_free_shipping": "Allow Free Shipping",
+        "free_shipping_threshold": "Free Shipping Threshold",
+        "done": "Done"
+      },
+      "delete": {
+        "label": "Delete",
+        "confirm": "Confirm Deletion",
+        "message": "Are you sure you want to delete this shipping method?",
+        "cancelled": "Cancelled",
+        "ok": "Delete"
+      }
+    },
+    "expense": {
+      "label": "Expenses",
+      "search": "Search",
+      "n.o": "No.",
+      "invoice": "Invoice",
+      "name": "Name",
+      "price": "Price($)",
+      "status": {
+        "label": "Status",
+        "pending": "Pending",
+        "processing": "Processing",
+        "paid": "Paid",
+        "failed": "Failed",
+        "refunded": "Refunded",
+        "cancelled": "Cancelled",
+        "expired": "Expired"
+      },
+      "date": "Date",
+      "supplier": "Supplier",
+      "create_expense": {
+        "label": "Create Expenses",
+        "expense_category": "Expense Category",
+        "selected_expense": "Selected Expense",
+        "expense_type": "Expense Type",
+        "selected_expense_type": "Selected Expense Type",
+        "supplier": "Supplier",
+        "selected_supplier": "Selected Supplier",
+        "title": "Title",
+        "equipment_maintenance": "Equipment Maintenance",
+        "decription": "Description...",
+        "expense_date": "Expense Date",
+        "due_date": "Due Date",
+        "payment_status": {
+          "label": "Payment Status",
+          "pending": "Pending",
+          "processing": "Processing",
+          "paid": "Paid",
+          "failed": "Failed",
+          "refunded": "Refunded",
+          "cancelled": "Cancelled",
+          "expired": "Expired"
+        },
+        "payment_date": "Payment Date",
+        "payment_method": {
+          "label": "Payment Method",
+          "cash": "Cash",
+          "card": "Card",
+          "transfer": "Transfer"
+        },
+        "selected_method": "Selected Method",
+        "amount": "Amount($)",
+        "tax_amount": "Tax Amount($)",
+        "reference_number": "Reference Number",
+        "note": "Note",
+        "attached_documents": "Attached Documents",
+        "done": "Done"
+      },
+      "view": {
+        "label": "View",
+        "point": "Points",
+        "supplier_information": "Supplier Information",
+        "payment": "Payment",
+        "payment_date": "Payment Date",
+        "pay_date": "Pay Date",
+        "expired_date": "Expired Date",
+        "expense_information": "Expense Information",
+        "payment_method": {
+          "label": "Payment Method",
+          "cash": "Cash",
+          "card": "Card",
+          "transfer": "Transfer"
+        },
+        "staff_information": "Staff Information",
+        "type": "Type",
+        "description": "Description",
+        "attached_documents": {
+          "label": "Attached Documents",
+          "view": "View",
+          "download": "Download"
+        }
+      }
+    },
+    "customer": {
+      "label": "Customer",
+      "search": "Search",
+      "n.o": "No.",
+      "name": "Name",
+      "contact": "Contact",
+      "customer_group": {
+        "label": "Customer Group",
+        "n.o": "No.",
+        "default": "Default",
+        "create_customer_group": {
+          "label": "Create Customer Group",
+          "name": "Name",
+          "decription": "Description",
+          "default": "Default",
+          "done": "Done"
+        },
+        "edit_customer_group": {
+          "label": "Edit Customer Group",
+          "name": "Name",
+          "decription": "Description",
+          "default": "Default",
+          "done": "Done"
+        },
+        "delete": "Delete"
+      },
+      "quick_view": {
+        "label": "Quick View",
+        "customer": "Customers",
+        "phone_number": "Phone Number",
+        "email": "Email",
+        "last_activity": "Last Activity",
+        "creation_date": "Creation Date",
+        "updated_date": "Updated Date"
+      },
+      "delete": {
+        "label": "Delete",
+        "confirm": "Confirm Deletion",
+        "message": "Are you sure you want to delete this customer?",
+        "cancelled": "Cancelled",
+        "ok": "Delete"
+      }
+    },
+    "products": {
+      "label": "Products",
+      "n.o": "No.",
+      "search": "Search",
+      "name": "Name",
+      "quantity": "Quantity",
+      "price": "Price($)",
+      "company": "Company",
+      "brand": "Brand",
+      "create_product": {
+        "label": "Create Product",
+        "product_image": "Product image",
+        "upload_image": "Upload Image",
+        "name": "Name",
+        "fill_name": "Fill Name",
+        "pls_enter_data": "Please enter data",
+        "action": "Action",
+        "inventory_management": {
+          "label": "Inventory Management",
+          "minimum_quantity": "Minimum Quantity",
+          "quantity_of_pre_order": "Quantity of Pre-order"
+        },
+        "special": "Special",
+        "basic_forms": {
+          "label": "Basic Forms",
+          "unit": "Unit",
+          "fill_unit": "Fill Unit",
+          "selling_price": "Selling Price($)",
+          "fill_selling_price": "Fill Selling Price($)"
+        },
+        "advanced_forms": {
+          "label": "Advanced Forms",
+          "sku": "SKU",
+          "fill_sku": "Fill SKU",
+          "barcode": "Barcode",
+          "fill_barcode": "Fill Barcode",
+          "unit": "Unit",
+          "fill_unit": "Fill Unit",
+          "brand": "Brand",
+          "select_brand": "Select Brand",
+          "search": "Search",
+          "type": "Type",
+          "select_type": "Select Type",
+          "manufacturer": "Manufacturer",
+          "select_manufacturer": "Select Manufacturer",
+          "selling_price": "Selling Price($)",
+          "fill_selling_price": "Fill Selling Price($)",
+          "purchase_price": "Purchase price ($)",
+          "fill_purchase_price": "Fill Purchase Price($)",
+          "warehouse_location": "Warehouse Location",
+          "stock_tracking": "Stock Tracking",
+          "product_label": "Label",
+          "brief_product_description": "Brief product description...",
+          "product_description": "Product Description..."
+        },
+        "warehouse_location": "Warehouse Location",
+        "main_location": "Main Location",
+        "done": "Done"
+      },
+      "quick_view": {
+        "label": "Quick View",
+        "product": "Product",
+        "sku": "SKU",
+        "unit": "Unit",
+        "barcode": "Barcode",
+        "category": "Category",
+        "brand": "Brand",
+        "manufacturer": "Manufacturer",
+        "warehouse_location": "Warehouse Location",
+        "created": "Created",
+        "update": "Update",
+        "stock_tracking": "Stock Tracking",
+        "add": "Add",
+        "price": "Price($)",
+        "cost_price": "Cost Price($)",
+        "selling_price": "Selling Price($)",
+        "quantity": "Quantity",
+        "alert_quantity": "Alert Quantity",
+        "tax": "Tax",
+        "description": "Description",
+        "main_location": "Main Location"
+      },
+      "status": {
+        "label": "Status",
+        "active": "Active",
+        "inactive": "Inactive"
+      }
+    },
+    "stock": {
+      "label": "Stock",
+      "search": "Search",
+      "n.o": "No.",
+      "name": { "label": "Name", "order": "Order", "low_stock": "Low Stock" },
+      "price": "Price($)",
+      "stock": "Stock",
+      "variant": "Variants",
+      "status": {
+        "label": "Status",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "stock_tracking": {
+        "label": "Stock Tracking",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "back_order": {
+        "label": "Back Order",
+        "active": "Active",
+        "inactive": "Inactive"
+      }
+    },
+    "store": {
+      "label": "Store",
+      "current_plan": "Current Plan",
+      "standard_plan": "Standard Plan",
+      "upgrade": "Upgrade",
+      "your_free_trial_will_end_on": " Your free trial will end on",
+      "data_transfer": "Data Transfer",
+      "storage_space": "Storage Space",
+      "user": "User",
+      "revenue": {
+        "label": "Revenue",
+        "income": "Income",
+        "expense": "Expense",
+        "this_month": "This Month",
+        "last_3_months": "Last 3 Months",
+        "last_6_months": "Last 6 Months",
+        "selected_range": "Selected Range",
+        "clear": "Clear"
+      },
+      "expense": {
+        "label": "Expense",
+        "this_month": "This Month",
+        "online_order": "Online Order",
+        "offline_order": "Offline Order",
+        "last_3_months": "Last 3 Months",
+        "last_6_months": "Last 6 Months",
+        "selected_range": "Selected Range",
+        "clear": "Clear"
+      },
+      "selling": {
+        "label": "Selling",
+        "order": "Order",
+        "online_order": "Online Order",
+        "offline_order": "Offline Order",
+        "last_3_months": "Last 3 Months",
+        "last_6_months": "Last 6 Months",
+        "selected_range": "Selected Range",
+        "clear": "Clear"
+      },
+      "store-management": {
+        "label": "Store Management",
+        "staff": {
+          "label": "Staff",
+          "n.o": "No.",
+          "name": "Name",
+          "role": {
+            "label": "Role",
+            "owner": "Owner",
+            "admin": "Admin",
+            "staff": "Staff",
+            "accountant": "Accountant",
+            "cashier": "Cashier"
+          },
+          "create_staff": {
+            "label": "Create Staff",
+            "name": "Name",
+            "male": "Male",
+            "female": "Female",
+            "role": {
+              "label": "Role",
+              "owner": "Owner",
+              "admin": "Admin",
+              "staff": "Staff",
+              "accountant": "Accountant",
+              "cashier": "Cashier"
+            },
+            "phone_number": "Phone Number",
+            "email": "Email",
+            "password": "Password",
+            "done": "Done"
+          },
+          "view": {
+            "label": "View",
+            "user": "User",
+            "phone_number": "Phone Number",
+            "email": "Email",
+            "gender": "Gender",
+            "last_active": "Last Active",
+            "created_at": "Created At",
+            "updated_at": "Updated At",
+            "update": {
+              "label": "Edit User",
+              "name": "Name",
+              "male": "Male",
+              "female": "Female",
+              "role": {
+                "label": "Role",
+                "owner": "Owner",
+                "admin": "Admin",
+                "staff": "Staff",
+                "accountant": "Accountant",
+                "cashier": "Cashier"
+              },
+              "phone_number": "Phone Number",
+              "email": "Email",
+              "password": "Password",
+              "done": "Done"
+            }
+          },
+          "password": {
+            "label": "Password",
+            "change_password": "Change Password",
+            "old_password": "Old Password",
+            "new_password": "New Password",
+            "confirm_password": "Confirm Password",
+            "done": "Done"
+          },
+          "delete": {
+            "label": "Delete",
+            "confirm": "Confirm Deletion",
+            "message": "Are you sure you want to delete this staff?",
+            "cancelled": "Cancelled",
+            "ok": "Delete"
+          }
+        },
+        "inventory_location": {
+          "label": "Inventory Locations",
+          "n.o": "No.",
+          "name": "Name",
+          "inventory": "Inventory",
+          "products": "Products",
+          "create": {
+            "label": "Create Inventory Location",
+            "name": "Name",
+            "address": "Address",
+            "latitude": "Latitude",
+            "longitude": "Longitude",
+            "description": "Description...",
+            "find_address": "Find an address ...",
+            "done": "Done"
+          },
+          "edit": {
+            "label": "Edit",
+            "edit_inventory_locations": "Edit Inventory Locations",
+            "name": "Name",
+            "address": "Address",
+            "latitude": "Latitude",
+            "longitude": "Longitude",
+            "description": "Description...",
+            "find_address": "Find an address ...",
+            "done": "Done"
+          },
+          "delete": {
+            "label": "Delete",
+            "confirm": "Confirm Deletion",
+            "message": "Are you sure you want to delete this inventory location?",
+            "cancelled": "Cancelled",
+            "ok": "Delete"
+          }
+        },
+        "contact": {
+          "label": "Contact",
+          "phone_number": "Phone Number",
+          "email": "Email",
+          "address": "Address",
+          "latitude": "Latitude",
+          "longitude": "Longitude",
+          "find_address": "Find an address ...",
+          "done": "Done"
+        },
+        "catalog": {
+          "label": "Catalog",
+          "type": {
+            "label": "Types",
+            "n.o": "No.",
+            "name": "Name",
+            "product": "Product",
+            "create": {
+              "label": "Create",
+              "create_type": "Create Type",
+              "name": "Name",
+              "decription": "Description",
+              "done": "Done"
+            },
+            "edit": {
+              "label": "Edit",
+              "edit_type": "Edit Type",
+              "name": "Name",
+              "decription": "Description",
+              "done": "Done"
+            },
+            "delete": {
+              "label": "Delete",
+              "confirm": "Confirm Deletion",
+              "message": "Are you sure you want to delete this type?",
+              "cancelled": "Cancelled",
+              "ok": "Delete"
+            }
+          },
+          "manufacturer": {
+            "label": "Manufacturer",
+            "n.o": "No.",
+            "name": "Name",
+            "product": "Product",
+            "create": {
+              "label": "Create",
+              "create_manufacturer": "Create Manufacturer",
+              "name": "Name",
+              "website": "Website",
+              "decription": "Description",
+              "done": "Done"
+            },
+            "edit": {
+              "label": "Edit",
+              "edit_manufacturer": "Edit Manufacturer",
+              "name": "Name",
+              "website": "Website",
+              "decription": "Description",
+              "done": "Done"
+            },
+            "delete": {
+              "label": "Delete",
+              "confirm": "Confirm Deletion",
+              "message": "Are you sure you want to delete this manufacturer?",
+              "cancelled": "Cancelled",
+              "ok": "Delete"
+            }
+          },
+          "brand": {
+            "label": "Brand",
+            "n.o": "No.",
+            "name": "Name",
+            "product": "Product",
+            "create": {
+              "label": "Create",
+              "create_brand": "Create Brand",
+              "name": "Name",
+              "decription": "Description",
+              "done": "Done"
+            },
+            "edit": {
+              "label": "Edit",
+              "edit_brand": "Edit Brand",
+              "name": "Name",
+              "decription": "Description",
+              "done": "Done"
+            },
+            "delete": {
+              "label": "Delete",
+              "confirm": "Confirm Deletion",
+              "message": "Are you sure you want to delete this brand?",
+              "cancelled": "Cancelled",
+              "ok": "Delete"
+            }
+          },
+          "tags": {
+            "label": "Tags",
+            "n.o": "No.",
+            "name": "Name",
+            "product": "Product",
+            "create": {
+              "label": "Create",
+              "create_tag": "Create Tag",
+              "name_kh": "Name (KH)",
+              "note": "Note",
+              "done": "Done"
+            },
+            "edit": {
+              "label": "Edit",
+              "edit_tag": "Edit Tag",
+              "name_kh": "Name (KH)",
+              "note": "Note",
+              "done": "Done"
+            },
+            "delete": {
+              "label": "Delete",
+              "confirm": "Confirm Deletion",
+              "message": "Are you sure you want to delete this tag?",
+              "cancelled": "Cancelled",
+              "ok": "Delete"
+            }
+          }
+        },
+        "expense": {
+          "label": "Expense",
+          "source_of_expense": {
+            "label": "Source Of Expense",
+            "n.o": "No.",
+            "name": "Name",
+            "categories": "Categories",
+            "create": {
+              "label": "Create",
+              "create_source_of_expense": "Create Source Of Expense",
+              "name_kh": "Name (KH)",
+              "note": "Note",
+              "done": "Done"
+            },
+            "edit": {
+              "label": "Edit",
+              "edit_source_of_expense": "Edit Source Of Expense",
+              "name_kh": "Name (KH)",
+              "note": "Note",
+              "done": "Done"
+            },
+            "delete": {
+              "label": "Delete",
+              "confirm": "Confirm Deletion",
+              "message": "Are you sure you want to delete this source of expense?",
+              "cancelled": "Cancelled",
+              "ok": "Delete"
+            }
+          },
+          "expense_type": {
+            "label": "Expense Type",
+            "n.o": "No.",
+            "name": "Name",
+            "expense": "Expense",
+            "create": {
+              "label": "Create",
+              "create_expense_type": "Create Expense Type",
+              "name": "Name",
+              "type": "Type",
+              "decription": "Description",
+              "done": "Done"
+            },
+            "edit": {
+              "label": "Edit",
+              "edit_expense_type": "Edit Expense Type",
+              "name": "Name",
+              "type": "Type",
+              "decription": "Description",
+              "done": "Done"
+            },
+            "delete": {
+              "label": "Delete",
+              "confirm": "Confirm Deletion",
+              "message": "Are you sure you want to delete this expense type?",
+              "cancelled": "Cancelled",
+              "ok": "Delete"
+            }
+          },
+          "supplier": {
+            "label": "Supplier",
+            "n.o": "No.",
+            "name": "Name",
+            "create": {
+              "label": "Create",
+              "create_supplier": "Create Supplier",
+              "name": "Name",
+              "payer_name": "Payer Name",
+              "email": "Email",
+              "phone_number": "Phone Number",
+              "address": "Address",
+              "decription": "Description",
+              "done": "Done"
+            },
+            "edit": {
+              "label": "Edit",
+              "edit_supplier": "Edit Supplier",
+              "name": "Name",
+              "payer_name": "Payer Name",
+              "email": "Email",
+              "phone_number": "Phone Number",
+              "address": "Address",
+              "decription": "Description",
+              "done": "Done"
+            },
+            "delete": {
+              "label": "Delete",
+              "confirm": "Confirm Deletion",
+              "message": "Are you sure you want to delete this supplier?",
+              "cancelled": "Cancelled",
+              "ok": "Delete"
+            }
+          }
+        },
+        "setting": {
+          "label": "Setting",
+          "customer_segment": {
+            "label": "Customer Segment",
+            "n.o": "No.",
+            "name": "Name",
+            "create_customer_segment": {
+              "label": "Create Customer Segment",
+              "name": "Name",
+              "decription": "Description",
+              "default": "Default",
+              "done": "Done"
+            },
+            "edit_customer_segment": {
+              "label": "Edit Customer Segment",
+              "name": "Name",
+              "decription": "Description",
+              "default": "Default",
+              "done": "Done"
+            },
+            "delete": {
+              "label": "Delete",
+              "confirm": "Confirm Deletion",
+              "message": "Are you sure you want to delete this customer segment?",
+              "cancelled": "Cancelled",
+              "ok": "Delete"
+            }
+          },
+          "role": {
+            "label": "Role",
+            "n.o": "No.",
+            "name": "Name",
+            "create": {
+              "label": "Create Role",
+              "name": "Name",
+              "decription": "Description",
+              "permission": {
+                "label": "Permission",
+                "analytics_management": "Analytics Management",
+                "api_management": "API Management",
+                "bundle_management": "Bundle Management",
+                "channel_management": "Channel Management",
+                "customer_management": "Customer Management",
+                "expense_management": "Expense Management",
+                "food_berverage_management": "Food & Beverage Management",
+                "goal_management": "Goal Management",
+                "inventory_management": "Inventory Management",
+                "marketing_management": "Marketing Management",
+                "notification_management": "Notification Management",
+                "order_management": "Order Management",
+                "payment_management": "Payment Management",
+                "pos_management": "POS Management",
+                "product_management": "Product Management",
+                "report_management": "Report Management",
+                "return_management": "Return Management",
+                "security_management": "Security Management",
+                "setting_management": "Setting Management",
+                "shipping_management": "Shipping Management",
+                "staff_management": "Staff Management",
+                "store_management": "Store Management",
+                "supplier_management": "Supplier Management",
+                "tax_management": "Tax Management"
+              },
+              "done": "Done"
+            },
+            "edit": {
+              "label": "Edit Role",
+              "name": "Name",
+              "decription": "Description",
+              "permission": {
+                "label": "Permission",
+                "analytics_management": "Analytics Management",
+                "api_management": "API Management",
+                "bundle_management": "Bundle Management",
+                "channel_management": "Channel Management",
+                "customer_management": "Customer Management",
+                "expense_management": "Expense Management",
+                "food_berverage_management": "Food & Beverage Management",
+                "goal_management": "Goal Management",
+                "inventory_management": "Inventory Management",
+                "marketing_management": "Marketing Management",
+                "notification_management": "Notification Management",
+                "order_management": "Order Management",
+                "payment_management": "Payment Management",
+                "pos_management": "POS Management",
+                "product_management": "Product Management",
+                "report_management": "Report Management",
+                "return_management": "Return Management",
+                "security_management": "Security Management",
+                "setting_management": "Setting Management",
+                "shipping_management": "Shipping Management",
+                "staff_management": "Staff Management",
+                "store_management": "Store Management",
+                "supplier_management": "Supplier Management",
+                "tax_management": "Tax Management"
+              },
+              "done": "Done"
+            },
+            "delete": {
+              "label": "Delete",
+              "confirm": "Confirm Deletion",
+              "message": "Are you sure you want to delete this role?",
+              "cancelled": "Cancelled",
+              "ok": "Delete"
+            }
+          }
+        }
+      }
+    },
+    "no_data": "No Data"
+  }
+}

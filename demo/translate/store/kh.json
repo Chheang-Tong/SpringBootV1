@@ -1,0 +1,168 @@
+{
+  "home": {
+    "search": "ស្វែងរក",
+    "product_categories": "ប្រភេទផលិតផល",
+    "products": {
+      "label": "ផលិតផល",
+      "in_stock": "មានស្តុក",
+      "out_of_stock": "អស់ស្តុក",
+      "only_left": "នៅសល់តែ {{count}} ប៉ុណ្ណោះ!",
+      "add": "បន្ថែម"
+    },
+    "filters": {
+      "label": "ច្រោះទិន្នន័យ",
+      "sort_by": {
+        "label": "តម្រៀបដោយ",
+        "name": "ឈ្មោះ",
+        "price": "តម្លៃ",
+        "created_at": "បង្កើតនៅ",
+        "asc": "ឡើង",
+        "desc": "ចុះ"
+      },
+      "brand": { "label": "ម៉ាកទំនិញ", "all": "ម៉ាកទាំងអស់" },
+      "tags": { "label": "ស្លាក", "search_tags": "ស្វែងរកស្លាក" }
+    }
+  },
+  "store": {
+    "label": "ហាង",
+    "info": "ព័ត៌មាន",
+    "home": {
+      "label": "ទំព័រដើម",
+      "no_posts_yet": "មិនទាន់មានប្រកាសទេ។",
+      "be_the_first_to_share_something": "ជាអ្នកដំបូងក្នុងការចែករំលែកអ្វីមួយ!"
+    },
+    "services": {
+      "label": "សេវាកម្ម",
+      "no_services_available": "មិនមានសេវាកម្មទេ",
+      "add_your_first_service_to_get_started": "បន្ថែមសេវាកម្មដំបូងរបស់អ្នកដើម្បីចាប់ផ្តើម!"
+    },
+    "about_us": {
+      "label": "អំពីយើង",
+      "no_information_available": "មិនមានព័ត៌មានទេ។"
+    },
+    "media": {
+      "label": "មេឌា",
+      "photos": "រូបភាព",
+      "videos": "វីដេអូ",
+      "no_media_available": "មិនមានមេឌាទេ។",
+      "upload_your_first_media_file": "បញ្ចូលឯកសារមេឌាដំបូងរបស់អ្នក!"
+    },
+    "map": {
+      "label": "ផែនទី",
+      "contact_info": "ព័ត៌មានទំនាក់ទំនង",
+      "address": "អាសយដ្ឋាន",
+      "phone": "ទូរស័ព្ទ",
+      "n/a": "មិនមាន",
+      "email": "អ៊ីមែល",
+      "email_not_provided": "មិនបានផ្តល់អ៊ីមែល",
+      "get_directions": "ទទួលយកទិសដៅ",
+      "our_location": "ទីតាំងរបស់យើង",
+      "find_our_brand": "ស្វែងរកម៉ាករបស់យើង៖",
+      "main_brand": "ម៉ាកសំខាន់",
+      "map_location_not_available": "មិនមានទីតាំងផែនទីទេ។"
+    }
+  },
+  "cart": {
+    "label": "រទេះទំនិញ",
+    "product_number": "ចំនួនផលិតផល",
+    "sub_total": "សរុបរង",
+    "total": "សរុប",
+    "checkout": "បញ្ជាទិញ",
+    "your_cart_is_empty": "រទេះទំនិញរបស់អ្នកទទេ។"
+  },
+  "order": {
+    "shipping_method": "វិធីសាស្ត្រដឹកជញ្ជូន",
+    "shipping_address": "អាសយដ្ឋានដឹកជញ្ជូន",
+    "create_new": "បង្កើតថ្មី",
+    "payment_method": "បង់ប្រាក់តាម",
+    "note": "កំណត់ចំណាំ",
+    "add_a_note_to_your_order": "បន្ថែមកំណត់ចំណាំទៅការបញ្ជាទិញរបស់អ្នក...",
+    "product_number": "ចំនួនផលិតផល",
+    "sub_total": "សរុបរង",
+    "discount": "បញ្ចុះតម្លៃ",
+    "shipping_amount": "ថ្លៃដឹកជញ្ជូន",
+    "total": "សរុប",
+    "ok": {
+      "label": "ទិញ",
+      "confirm_order": "បញ្ជាក់ការបញ្ជាទិញ",
+      "pls_confirm_order": "សូមបញ្ជាក់ព័ត៌មានការបញ្ជាទិញរបស់អ្នកខាងក្រោម៖",
+      "shipping_method": "វិធីសាស្ត្រដឹកជញ្ជូន",
+      "shipping_address": "អាសយដ្ឋានដឹកជញ្ជូន",
+      "payment_method": "បង់ប្រាក់តាម",
+      "ok": "យល់ព្រម"
+    },
+    "delete_order": "បានលុបការបញ្ជាទិញ",
+    "delete_success": "ការបញ្ជាទិញត្រូវបានលុបដោយជោគជ័យ។"
+  },
+  "share": {
+    "label": "ចែករំលែកហាងរបស់អ្នកទៅបណ្តាញសង្គម",
+    "sub_title": "ផ្សព្វផ្សាយហាងរបស់អ្នកយ៉ាងឆាប់រហ័សនៅលើប្រព័ន្ធផ្សព្វផ្សាយសង្គម ដើម្បីឈានដល់អតិថិជនកាន់តែច្រើន និងជំរុញការលក់។",
+    "copy_link": "ចម្លងតំណ",
+    "copy": "ចម្លង"
+  },
+  "profile": {
+    "account": {
+      "label": "គណនី",
+      "phone_number": "លេខទូរស័ព្ទ",
+      "email": "អ៊ីមែល",
+      "edit_profile": {
+        "label": "កែប្រវត្តិរូប",
+        "name": "ឈ្មោះ",
+        "phone_number": "លេខទូរស័ព្ទ",
+        "email": "អ៊ីមែល",
+        "finish": {
+          "label": "បញ្ចប់",
+          "update": "កំពុងធ្វើបច្ចុប្បន្នភាព...",
+          "title": "បានរក្សាទុក",
+          "sub_title": "ព័ត៌មានរបស់អ្នកត្រូវបានធ្វើបច្ចុប្បន្នភាព។"
+        }
+      },
+      "forgot_password": {
+        "label": "ភ្លេចពាក្យសម្ងាត់?",
+        "user_name": "ឈ្មោះអ្នកប្រើ",
+        "send_otp": "ផ្ញើលេខកូដ OTP"
+      }
+    },
+    "history": {
+      "label": "ប្រវត្តិ",
+      "select_caleder": "ជ្រើសរើសប្រតិទិន",
+      "cancelled": "បានលុបចោល",
+      "completed": "បានបញ្ចប់"
+    },
+    "logout": {
+      "label": "ចាកចេញ",
+      "confirm": "បញ្ជាក់ការចាកចេញ",
+      "are_you_sure": "តើអ្នកប្រាកដថាចង់ចាកចេញមែនទេ?",
+      "cancel": "បោះបង់",
+      "logout": "ចាកចេញ"
+    }
+  },
+  "auth": {
+    "label": "ចូលទៅគណនីរបស់អ្នក",
+    "sign_in": "ចូលប្រើ",
+    "sign_up": {
+      "label": "ចុះឈ្មោះ",
+      "create_account": "បង្កើតគណនីថ្មី",
+      "name": "ឈ្មោះ",
+      "phone_number": "លេខទូរស័ព្ទ",
+      "email": "អ៊ីមែល",
+      "password": "ពាក្យសម្ងាត់",
+      "confirm_password": "បញ្ជាក់ពាក្យសម្ងាត់",
+      "have_account": "មានគណនីរួចហើយ?",
+      "log_in": "ចូល"
+    },
+    "log_in": "ចូលប្រើ",
+    "log_out": "ចាកចេញ",
+    "email": "អ៊ីមែល",
+    "phone_number": "លេខទូរស័ព្ទ",
+    "password": "ពាក្យសម្ងាត់",
+    "confirm_password": "បញ្ជាក់ពាក្យសម្ងាត់",
+    "forgot_password": {
+      "label": "ភ្លេចពាក្យសម្ងាត់?",
+      "user_name": "ឈ្មោះអ្នកប្រើប្រាស់",
+      "send_otp": "ផ្ញើលេខកូដ OTP"
+    },
+    "reset_password": "កំណត់ពាក្យសម្ងាត់ឡើងវិញ",
+    "no_account": "មិនមានគណនី?"
+  }
+}

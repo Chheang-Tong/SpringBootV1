@@ -1,0 +1,167 @@
+{
+  "home": {
+    "search": "Search",
+    "product_categories": "Product Categories",
+    "products": {
+      "label": "Products",
+      "in_stock": "In Stock",
+      "out_of_stock": "Out of Stock",
+      "only_left": "Only {{count}} left!",
+      "add": "Add"
+    },
+    "filters": {
+      "sort_by": {
+        "label": "Sort by",
+        "name": "Name",
+        "price": "Price",
+        "created_at": "Created At",
+        "asc": "Ascending",
+        "desc": "Descending"
+      },
+      "brand": { "label": "Brand", "all": "All Brands" },
+      "tags": { "label": "Tags", "search_tags": "Search tags" }
+    }
+  },
+  "store": {
+    "label": "Store",
+    "info": "Information",
+    "home": {
+      "label": "Home",
+      "no_posts_yet": "No posts yet.",
+      "be_the_first_to_share_something": "Be the first to share something!"
+    },
+    "services": {
+      "label": "Services",
+      "no_services_available": "No services available",
+      "add_your_first_service_to_get_started": "Add your first service to get started!"
+    },
+    "about_us": {
+      "label": "About Us",
+      "no_information_available": "No information available."
+    },
+    "media": {
+      "label": "Media",
+      "photos": "Photos",
+      "videos": "Videos",
+      "no_media_available": "No media available.",
+      "upload_your_first_media_file": "Upload your first media file!"
+    },
+    "map": {
+      "label": "Map",
+      "contact_info": "Contact Information",
+      "address": "Address",
+      "phone": "Phone",
+      "n/a": " N/A ",
+      "email": "Email",
+      "email_not_provided": "Email not provided",
+      "get_directions": "Get Directions",
+      "our_location": "Our Location",
+      "find_our_brand": " Find our brand:",
+      "main_brand": "Main Brand",
+      "map_location_not_available": "Map location not available."
+    }
+  },
+  "cart": {
+    "label": "Cart",
+    "product_number": "Product Number",
+    "sub_total": "Sub Total",
+    "total": "Total",
+    "checkout": "Checkout",
+    "your_cart_is_empty": "Your cart is empty."
+  },
+  "order": {
+    "shipping_method": "Shipping Method",
+    "shipping_address": "Shipping Address",
+    "create_new": "Create New",
+    "payment_method": "Payment Method",
+    "note": "Note",
+    "add_a_note_to_your_order": "Add a note to your order...",
+    "product_number": "Product Number",
+    "sub_total": "Sub Total",
+    "discount": "Discount",
+    "shipping_amount": "Shipping Amount",
+    "total": "Total",
+    "ok": {
+      "label": "Ok",
+      "confirm_order": "Confirm Order",
+      "pls_confirm_order": "Please confirm your order details below:",
+      "shipping_method": "Shipping Method",
+      "shipping_address": "Shipping Address",
+      "payment_method": "Payment Method",
+      "ok": "Ok"
+    },
+    "delete_order": "Deleted Order",
+    "delete_success": "Order successfully deleted."
+  },
+  "share": {
+    "label": "Share your shop to social",
+    "sub_title": "Quickly promote your store on social media to reach more customersand drive sales.",
+    "copy_link": "Copy Link",
+    "copy": "Copy"
+  },
+  "profile": {
+    "account": {
+      "label": "Account",
+      "phone_number": "Phone Number",
+      "email": "Email",
+      "edit_profile": {
+        "label": "Edit Profile",
+        "name": "Name",
+        "phone_number": "Phone Number",
+        "email": "Email",
+        "finish": {
+          "label": "Finish",
+          "update": "Update...",
+          "title": "Saved",
+          "sub_title": "Your information has been updated."
+        }
+      },
+      "forgot_password": {
+        "label": "Forgot Password?",
+        "user_name": "Username",
+        "send_otp": "Send OTP"
+      }
+    },
+    "history": {
+      "label": "History",
+      "select_caleder": "Select Calender",
+      "cancelled": "Cancelled",
+      "completed": "Completed"
+    },
+    "logout": {
+      "label": "Logout",
+      "confirm": "Confirm Logout",
+      "are_you_sure": "Are you sure you want to logout?",
+      "cancel": "Cancel",
+      "logout": "Logout"
+    }
+  },
+  "auth": {
+    "label": "Login to your account",
+    "sign_in": "Sign In",
+    "sign_up": {
+      "label": "Create one",
+      "create_account": "Create account",
+      "name": "Name",
+      "phone_number": "Phone Number",
+      "email": "Email",
+      "password": "Password",
+      "confirm_password": "Confirm Password",
+      "have_account": "Have an account?",
+      "log_in": "Log In"
+    },
+    "log_in": "Log In",
+    "log_out": "Log Out",
+    "email": "Email",
+    "phone_number": "Phone Number",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "forgot_password": {
+      "label": "Forgot Password?",
+      "user_name": "Username",
+      "send_otp": "Send OTP"
+    },
+    "reset_password": "Reset Password",
+    "no_account": "No account?"
+  }
+}

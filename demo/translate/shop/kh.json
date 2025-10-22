@@ -1,0 +1,907 @@
+{
+  "shop": {
+    "owner": "ម្ចាស់ហាង",
+    "about_system": "អំពីប្រព័ន្ធ",
+    "version": "ជំនាន់",
+    "address": "#466, St Betong, Dey Thmey Village, Kouk Khleang Commune, Sen Sok District, Phnom Penh, Cambodia",
+    "auth": {
+      "label": "ចូលគណនីរបស់អ្នក",
+      "sign_in": "ចូលប្រព័ន្ធ",
+      "sign_up": "ចុះឈ្មោះ",
+      "sign_out": "ចេញពីប្រព័ន្ធ",
+      "log_in": "ចូលប្រព័ន្ធ",
+      "log_out": "ចេញពីប្រព័ន្ធ",
+      "email": "អ៊ីមែល",
+      "phone_number": "លេខទូរស័ព្ទ",
+      "password": "ពាក្យសម្ងាត់",
+      "confirm_password": "បញ្ជាក់ពាក្យសម្ងាត់",
+      "forgot_password": "ភ្លេចពាក្យសម្ងាត់?",
+      "reset_password": "កំណត់ពាក្យសម្ងាត់ឡើងវិញ"
+    },
+    "home": {
+      "label": "ទំព័រដើម",
+      "order": "បញ្ជាទិញ",
+      "in_progress": "កំពុងដំណើរការ",
+      "completed": "បានបញ្ចប់",
+      "calendar": {
+        "label": "កាលបរិច្ឆេទ",
+        "today": "ថ្ងៃនេះ",
+        "yesterday": "ម្សិលមិញ",
+        "this_week": "សប្ដាហ៍នេះ",
+        "this_month": "ខែនេះ",
+        "last_3_month": "៣ ខែចុងក្រោយ",
+        "last_6_month": "៦ ខែចុងក្រោយ",
+        "select_range": "ជ្រើសរើស",
+        "clear": "សម្អាត"
+      },
+      "search": "ស្វែងរក",
+      "status": {
+        "label": "ស្ថានភាព",
+        "cancelled": "បានបោះបង់",
+        "completed": "បានទទួលផលិតផល",
+        "out_for_delivery": "យកផលិតផលដឹកជញ្ជូន",
+        "processing": "កំពុងរៀបចំ",
+        "pending": "កំពុងរង់ចាំ",
+        "confirmed": "បានបញ្ចាក់"
+      },
+      "payment_status": {
+        "label": "ស្ថានភាពការបង់ប្រាក់",
+        "paid": "បានបង់ប្រាក់",
+        "expired": "បានផុតកំណត់",
+        "cancelled": "បានបោះបង់",
+        "refunded": "បានបង់ត្រលប់",
+        "failed": "មិនអាចបង់ប្រាក់បានទេ",
+        "processing": "កំពុងរៀបចំ"
+      },
+      "order_by": {
+        "label": "បញ្ជាទិញតាម",
+        "dine_in_order": "បញ្ជាទិញទទួលទានក្នុងហាង",
+        "gift_order": "បញ្ជាទិញជាអំណោយ",
+        "pre_order": "បញ្ជាទិញជាមុន",
+        "message_order": "បញ្ជាទិញតាមសារ",
+        "phone_order": "បញ្ជាទិញតាមទូរស័ព្ទ",
+        "reservation": "បញ្ជាទិញកក់ជាមុន",
+        "takeaway_order": "បញ្ជាទិញយកទៅផ្ទះ",
+        "pickup_order": "បញ្ជាទិញមកយក",
+        "delivery_order": "បញ្ជាទិញដឹកជញ្ជូន",
+        "offline_order": "បញ្ជាទិញក្រៅបណ្តាញ",
+        "online_order": "បញ្ជាទិញតាមអ៊ីនធឺណិត"
+      },
+      "clear": "សម្អាត",
+      "n.o": "ល.រ",
+      "invoice": "វិក្កយបត្រ",
+      "customer": {
+        "label": "អតិថិជន",
+        "cancelled": "បានបោះបង់",
+        "waiting": "កំពុងរង់ចាំ",
+        "completed": "បានបញ្ចប់"
+      },
+      "product": "ផលិតផល",
+      "date": "កាលបរិច្ឆេទ",
+      "quick_view": {
+        "label": "មើលរហ័ស",
+        "n.o": "ល.រ.",
+        "product": "ផលិតផល",
+        "price": "តម្លៃ ($)",
+        "quantity": "បរិមាណ",
+        "sub_total": "សរុប ($)",
+        "discount": "បញ្ចុះតម្លៃ ($)",
+        "grand_total": "ចំនួនទឹកប្រាក់ត្រូវបង់សរុប ($)",
+        "seconds": "វិនាទី",
+        "minutes": "នាទី",
+        "hour": "ម៉ោង",
+        "status": {
+          "label": "ស្ថានភាព",
+          "cancelled": {
+            "label": "បានបោះបង់",
+            "by_customer": "អតិថិជនបានបោះបង់",
+            "order_cancellation": "បោះបង់ការបញ្ជាទិញ"
+          },
+          "completed": "បានបញ្ចប់",
+          "out_for_delivery": "យកផលិតដឹកជញ្ចួន",
+          "processing": "កំពុងរៀបចំ",
+          "pending": "កំពុងរង់ចាំ",
+          "confirmed": "បានទទួលផលិតផល",
+          "account": "គណនី"
+        }
+      }
+    },
+    "sale": {
+      "label": "ការលក់",
+      "calendar": "ប្រតិទិន",
+      "search": "ស្វែងរក",
+      "status": {
+        "label": "ស្ថានភាព",
+        "cancelled": "បានបោះបង់",
+        "completed": "បានបញ្ចប់",
+        "out_for_delivery": "យកផលិតដឹកជញ្ជួន",
+        "processing": "កំពុងរៀបចំ",
+        "pending": "កំពុងរង់ចាំ",
+        "confirmed": "បានបញ្ចាក់"
+      },
+      "payment_status": {
+        "label": "ស្ថានភាពការទូទាត់",
+        "paid": "បានបង់",
+        "expired": "បានផុតកំណត់",
+        "cancelled": {
+          "label": "បានបោះបង់",
+          "cancelled_by_customer": "បោះបង់ដោយអតិថិជន",
+          "order_cancellation": "បោះបង់ការបញ្ជាទិញ"
+        },
+        "refunded": "បានបង់ត្រលប់",
+        "failed": "មិនអាចបង់ប្រាក់បានទេ",
+        "processing": "កំពុងរៀបចំ"
+      },
+      "order_by": {
+        "label": "ប្រភេទបញ្ជាទិញ",
+        "dine_in_order": "បញ្ជាទិញទទួលទានក្នុងហាង",
+        "gift_order": "បញ្ជាទិញជាអំណោយ",
+        "pre_order": "បញ្ជាទិញជាមុន",
+        "message_order": "បញ្ជាទិញតាមសារ",
+        "phone_order": "បញ្ជាទិញតាមទូរស័ព្ទ",
+        "reservation_order": "បញ្ជាទិញកក់ជាមុន"
+      },
+      "clear": "សម្អាត",
+      "n.o": "ល.រ",
+      "invoice": "វិក្កយបត្រ",
+      "name": "ឈ្មោះ",
+      "product": "ផលិតផល",
+      "date": "កាលបរិច្ឆេទ",
+      "quick_view": {
+        "label": "មើលរហ័ស",
+        "price": "តម្លៃ ($)",
+        "qty": "ចំនួន",
+        "sub_total": "សរុបរង ($)",
+        "discount": "បញ្ចុះតម្លៃ ($)",
+        "grand_total": "សរុបចុងក្រោយ ($)",
+        "seconds": "វិនាទី",
+        "minutes": "នាទី",
+        "hour": "ម៉ោង"
+      }
+    },
+    "shipping": {
+      "label": "ដឹកជញ្ជូន",
+      "n.o": "ល.រ",
+      "types": "ប្រភេទ",
+      "price": "តម្លៃ ($)",
+      "date": "កាលបរិច្ឆេទ",
+      "status": {
+        "label": "ស្ថានភាព",
+        "active": "សកម្ម",
+        "inactive": "អសកម្ម"
+      },
+      "edit": {
+        "label": "កែប្រែ",
+        "edit_shipping_method": "កែប្រែវិធីដឹកជញ្ជូន",
+        "create_shipping_method": "បង្កើតវិធីដឹកជញ្ជូន",
+        "name": "ឈ្មោះ",
+        "type": "ប្រភេទ",
+        "price": "តម្លៃ ($)",
+        "decription": "សេចក្តីពិពណ៌នា",
+        "allow_free_shipping": "ការកំណត់ដឹកជញ្ជូនឥតគិតថ្លៃ",
+        "free_shipping_threshold": "កម្រិតដឹកជញ្ជូនឥតគិតថ្លៃ",
+        "done": "រួចរាល់"
+      },
+      "delete": {
+        "label": "លុប",
+        "confirm": "បញ្ជាក់លុប",
+        "message": "តើអ្នកប្រាកដថាចង់លុបវិធីដឹកជញ្ជូននេះឬ?",
+        "cancelled": "បានបោះបង់",
+        "ok": "លុប"
+      }
+    },
+    "expense": {
+      "label": "ចំណាយ",
+      "search": "ស្វែងរក",
+      "n.o": "ល.រ",
+      "invoice": "វិក្កយបត្រ",
+      "name": "ឈ្មោះ",
+      "price": "តម្លៃ ($)",
+      "status": {
+        "label": "ស្ថានភាព",
+        "pending": "កំពុងរង់ចាំ",
+        "processing": "កំពុងរៀបចំ",
+        "paid": "បានបង់",
+        "failed": "មិនអាចបង់ប្រាក់បានទេ",
+        "refunded": "បានបង់ត្រលប់",
+        "cancelled": "បានបោះបង់",
+        "expired": "បានផុតកំណត់"
+      },
+      "date": "កាលបរិច្ឆេទ",
+      "supplier": "អ្នកផ្គត់ផ្គង់",
+      "create_expense": {
+        "label": "បង្កើតចំណាយ",
+        "expense_category": "ប្រភេទចំណាយ",
+        "selected_expense": "ចំណាយដែលបានជ្រើស",
+        "expense_type": "ប្រភេទចំណាយ",
+        "selected_expense_type": "ប្រភេទចំណាយដែលបានជ្រើស",
+        "supplier": "អ្នកផ្គត់ផ្គង់",
+        "selected_supplier": "អ្នកផ្គត់ផ្គង់ដែលបានជ្រើស",
+        "title": "ចំណងជើង",
+        "equipment_maintenance": "ថែទាំឧបករណ៍",
+        "decription": "សេចក្តីពិពណ៌នា...",
+        "expense_date": "កាលបរិច្ឆេទចំណាយ",
+        "due_date": "ថ្ងៃផុតកំណត់",
+        "payment_status": {
+          "label": "ស្ថានភាពការទូទាត់",
+          "pending": "កំពុងរង់ចាំ",
+          "processing": "កំពុងរៀបចំ",
+          "paid": "បានបង់",
+          "failed": "មិនអាចបង់ប្រាក់បានទេ",
+          "refunded": "បានបង់ត្រលប់",
+          "cancelled": "បានបោះបង់",
+          "expired": "បានផុតកំណត់"
+        },
+        "payment_date": "កាលបរិច្ឆេទទូទាត់",
+        "payment_method": {
+          "label": "វិធីសាស្រ្តទូទាត់",
+          "cash": "សាច់ប្រាក់",
+          "card": "កាត",
+          "transfer": "ផ្ទេរ"
+        },
+        "selected_method": "វិធីសាស្រ្តដែលបានជ្រើស",
+        "amount": "ចំនួនទឹកប្រាក់ ($)",
+        "tax_amount": "ចំនួនពន្ធ ($)",
+        "reference_number": "លេខយោង",
+        "note": "កំណត់សម្គាល់",
+        "attached_documents": "ឯកសារភ្ជាប់",
+        "done": "រួចរាល់"
+      },
+      "view": {
+        "label": "មើល",
+        "point": "ពិន្ទុ",
+        "supplier_information": "ព័ត៌មានអ្នកផ្គត់ផ្គង់",
+        "payment": "ការទូទាត់",
+        "payment_date": "កាលបរិច្ឆេទទូទាត់",
+        "pay_date": "ថ្ងៃទូទាត់",
+        "expired_date": "ថ្ងៃផុតកំណត់",
+        "expense_information": "ព័ត៌មានចំណាយ",
+        "payment_method": {
+          "label": "វិធីសាស្រ្តទូទាត់",
+          "cash": "សាច់ប្រាក់",
+          "card": "កាត",
+          "transfer": "ផ្ទេរ"
+        },
+        "staff_information": "ព័ត៌មានបុគ្គលិក",
+        "type": "ប្រភេទ",
+        "description": "ការពិពណ៌នា",
+        "attached_documents": {
+          "label": "ឯកសារភ្ជាប់",
+          "view": "មើល",
+          "download": "ទាញយក"
+        }
+      }
+    },
+    "customer": {
+      "label": "អតិថិជន",
+      "search": "ស្វែងរក",
+      "n.o": "ល.រ",
+      "name": "ឈ្មោះ",
+      "contact": "ទំនាក់ទំនង",
+      "customer_group": {
+        "label": "ក្រុមអតិថិជន",
+        "n.o": "ល.រ",
+        "default": "លំនាំដើម",
+        "create_customer_group": {
+          "label": "បង្កើតក្រុមអតិថិជន",
+          "name": "ឈ្មោះ",
+          "decription": "សេចក្តីពិពណ៌នា",
+          "default": "លំនាំដើម",
+          "done": "រួចរាល់"
+        },
+        "edit_customer_group": {
+          "label": "កែប្រែក្រុមអតិថិជន",
+          "name": "ឈ្មោះ",
+          "decription": "សេចក្តីពិពណ៌នា",
+          "default": "លំនាំដើម",
+          "done": "រួចរាល់"
+        },
+        "delete": "លុប"
+      },
+      "quick_view": {
+        "label": "មើលរហ័ស",
+        "customer": "អតិថិជន",
+        "phone_number": "លេខទូរស័ព្ទ",
+        "email": "អ៊ីមែល",
+        "last_activity": "សកម្មភាពចុងក្រោយ",
+        "creation_date": "ថ្ងៃបង្កើត",
+        "updated_date": "ថ្ងៃធ្វើបច្ចុប្បន្នភាព"
+      },
+      "delete": {
+        "label": "លុប",
+        "confirm": "បញ្ជាក់លុប",
+        "message": "តើអ្នកប្រាកដថាចង់លុបអតិថិជននេះឬ?",
+        "cancelled": "បានបោះបង់",
+        "ok": "លុប"
+      }
+    },
+    "products": {
+      "label": "ផលិតផល",
+      "n.o": "ល.រ",
+      "search": "ស្វែងរក",
+      "name": "ឈ្មោះ",
+      "quantity": "បរិមាណ",
+      "price": "តម្លៃ ($)",
+      "company": "ក្រុមហ៊ុន",
+      "brand": "ម៉ាក",
+      "create_product": {
+        "label": "បង្កើតផលិតផល",
+        "product_image": "រូបផលិតផល",
+        "upload_image": "ផ្ទុករូបឡើង",
+        "name": "ឈ្មោះ",
+        "fill_name": "បំពេញឈ្មោះ",
+        "pls_enter_data": "សូមបញ្ចូលទិន្នន័យ",
+        "action": "សកម្មភាព",
+        "inventory_management": {
+          "label": "ការគ្រប់គ្រងស្តុក",
+          "minimum_quantity": "បរិមាណអប្បបរមា",
+          "quantity_of_pre_order": "បរិមាណបញ្ជាទិញជាមុន"
+        },
+        "special": "ពិសេស",
+        "basic_forms": {
+          "label": "ទម្រង់មូលដ្ឋាន",
+          "unit": "ខ្នាត",
+          "fill_unit": "បំពេញខ្នាត",
+          "selling_price": "តម្លៃលក់ ($)",
+          "fill_selling_price": "បំពេញតម្លៃលក់ ($)"
+        },
+        "advanced_forms": {
+          "label": "ទម្រង់កម្រិតខ្ពស់",
+          "sku": "SKU",
+          "fill_sku": "បំពេញ SKU",
+          "barcode": "លេខកូដបារ",
+          "fill_barcode": "បំពេញលេខកូដបារ",
+          "unit": "ខ្នាត",
+          "fill_unit": "បំពេញខ្នាត",
+          "brand": "ម៉ាក",
+          "select_brand": "ជ្រើសម៉ាក",
+          "search": "ស្វែងរក",
+          "type": "ប្រភេទ",
+          "select_type": "ជ្រើសប្រភេទ",
+          "manufacturer": "ក្រុមហ៊ុនផលិត",
+          "select_manufacturer": "ជ្រើសក្រុមហ៊ុនផលិត",
+          "selling_price": "តម្លៃលក់ ($)",
+          "fill_selling_price": "បំពេញតម្លៃលក់ ($)",
+          "purchase_price": "តម្លៃទិញ ($)",
+          "fill_purchase_price": "បំពេញតម្លៃទិញ ($)",
+          "warehouse_location": "ទីតាំងឃ្លាំង",
+          "stock_tracking": "តាមដានស្តុក",
+          "product_label": "ស្លាក",
+          "brief_product_description": "ពិពណ៌នាខ្លីអំពីផលិតផល...",
+          "product_description": "ពិពណ៌នាផលិតផល..."
+        },
+        "warehouse_location": "ទីតាំងឃ្លាំង",
+        "main_location": "ទីតាំងមេ",
+        "done": "រួចរាល់"
+      },
+      "quick_view": {
+        "label": "មើលរហ័ស",
+        "product": "ផលិតផល",
+        "sku": "SKU",
+        "unit": "ខ្នាត",
+        "barcode": "លេខកូដបារ",
+        "category": "ប្រភេទ",
+        "brand": "ម៉ាក",
+        "manufacturer": "ក្រុមហ៊ុនផលិត",
+        "warehouse_location": "ទីតាំងឃ្លាំង",
+        "created": "បានបង្កើត",
+        "update": "កែប្រែ",
+        "stock_tracking": "តាមដានស្តុក",
+        "add": "បន្ថែម",
+        "price": "តម្លៃ ($)",
+        "cost_price": "តម្លៃដើម ($)",
+        "selling_price": "តម្លៃលក់ ($)",
+        "quantity": "បរិមាណ",
+        "alert_quantity": "បរិមាណជូនដំណឹង",
+        "tax": "ពន្ធ",
+        "description": "ការពិពណ៌នា",
+        "main_location": "ទីតាំងមេ"
+      },
+      "status": {
+        "label": "ស្ថានភាព",
+        "active": "សកម្ម",
+        "inactive": "អសកម្ម"
+      }
+    },
+    "stock": {
+      "label": "ស្តុក",
+      "search": "ស្វែងរក",
+      "n.o": "ល.រ",
+      "name": { "label": "ឈ្មោះ", "order": "លំដាប់", "low_stock": "ស្តុកទាប" },
+      "price": "តម្លៃ ($)",
+      "stock": "ស្តុក",
+      "variant": "វ៉ារ្យ៉ង់",
+      "status": {
+        "label": "ស្ថានភាព",
+        "active": "សកម្ម",
+        "inactive": "អសកម្ម"
+      },
+      "stock_tracking": {
+        "label": "តាមដានស្តុក",
+        "active": "សកម្ម",
+        "inactive": "អសកម្ម"
+      },
+      "back_order": {
+        "label": "បញ្ជាទិញបន្ទាប់",
+        "active": "សកម្ម",
+        "inactive": "អសកម្ម"
+      }
+    },
+    "store": {
+      "label": "ហាង",
+      "current_plan": "ផែនការបច្ចុប្បន្ន",
+      "standard_plan": "ផែនការស្តង់ដារ",
+      "upgrade": "អាប់ក្រេដ",
+      "your_free_trial_will_end_on": " ការសាកល្បងឥតគិតថ្លៃរបស់អ្នកនឹងបញ្ចប់នៅ",
+      "data_transfer": "ការផ្ទេរទិន្នន័យ",
+      "storage_space": "ទំហំផ្ទុក",
+      "user": "អ្នកប្រើ",
+      "revenue": {
+        "label": "ចំណូល",
+        "income": "ចំណូល",
+        "expense": "ចំណាយ",
+        "this_month": "ខែនេះ",
+        "last_3_months": "៣ ខែចុងក្រោយ",
+        "last_6_months": "៦ ខែចុងក្រោយ",
+        "selected_range": "ជ្រើសរើស",
+        "clear": "សម្អាត"
+      },
+      "expense": {
+        "label": "ចំណាយ",
+        "this_month": "ខែនេះ",
+        "online_order": "បញ្ជាទិញតាមអ៊ីនធឺណិត",
+        "offline_order": "បញ្ជាទិញក្រៅបណ្ដាញ",
+        "last_3_months": "៣ ខែចុងក្រោយ",
+        "last_6_months": "៦ ខែចុងក្រោយ",
+        "selected_range": "ជ្រើសរើស",
+        "clear": "សម្អាត"
+      },
+      "selling": {
+        "label": "ការលក់",
+        "order": "បញ្ជាទិញ",
+        "online_order": "បញ្ជាទិញតាមអ៊ីនធឺណិត",
+        "offline_order": "បញ្ជាទិញក្រៅបណ្ដាញ",
+        "last_3_months": "៣ ខែចុងក្រោយ",
+        "last_6_months": "៦ ខែចុងក្រោយ",
+        "selected_range": "ជ្រើសរើស",
+        "clear": "សម្អាត"
+      },
+      "store-management": {
+        "label": "ការគ្រប់គ្រងហាង",
+        "staff": {
+          "label": "បុគ្គលិក",
+          "n.o": "ល.រ",
+          "name": "ឈ្មោះ",
+          "role": {
+            "label": "តួនាទី",
+            "owner": "ម្ចាស់",
+            "admin": "អ្នកគ្រប់គ្រង",
+            "staff": "បុគ្គលិក",
+            "accountant": "គណនេយ្យករ",
+            "cashier": "បេឡាករ"
+          },
+          "create_staff": {
+            "label": "បង្កើតបុគ្គលិក",
+            "name": "ឈ្មោះ",
+            "male": "ប្រុស",
+            "female": "ស្រី",
+            "role": {
+              "label": "តួនាទី",
+              "owner": "ម្ចាស់",
+              "admin": "អ្នកគ្រប់គ្រង",
+              "staff": "បុគ្គលិក",
+              "accountant": "គណនេយ្យករ",
+              "cashier": "បេឡាករ"
+            },
+            "phone_number": "លេខទូរស័ព្ទ",
+            "email": "អ៊ីមែល",
+            "password": "ពាក្យសម្ងាត់",
+            "done": "រួចរាល់"
+          },
+          "view": {
+            "label": "មើល",
+            "user": "អ្នកប្រើ",
+            "phone_number": "លេខទូរស័ព្ទ",
+            "email": "អ៊ីមែល",
+            "gender": "ភេទ",
+            "last_active": "សកម្មភាពចុងក្រោយ",
+            "created_at": "ថ្ងៃបង្កើត",
+            "updated_at": "ថ្ងៃធ្វើបច្ចុប្បន្នភាព",
+            "update": {
+              "label": "កែប្រែអ្នកប្រើ",
+              "name": "ឈ្មោះ",
+              "male": "ប្រុស",
+              "female": "ស្រី",
+              "role": {
+                "label": "តួនាទី",
+                "owner": "ម្ចាស់",
+                "admin": "អ្នកគ្រប់គ្រង",
+                "staff": "បុគ្គលិក",
+                "accountant": "គណនេយ្យករ",
+                "cashier": "បេឡាករ"
+              },
+              "phone_number": "លេខទូរស័ព្ទ",
+              "email": "អ៊ីមែល",
+              "password": "ពាក្យសម្ងាត់",
+              "done": "រួចរាល់"
+            }
+          },
+          "password": {
+            "label": "ពាក្យសម្ងាត់",
+            "change_password": "ផ្លាស់ប្តូរពាក្យសម្ងាត់",
+            "old_password": "ពាក្យសម្ងាត់ចាស់",
+            "new_password": "ពាក្យសម្ងាត់ថ្មី",
+            "confirm_password": "បញ្ជាក់ពាក្យសម្ងាត់",
+            "done": "រួចរាល់"
+          },
+          "delete": {
+            "label": "លុប",
+            "confirm": "បញ្ជាក់លុប",
+            "message": "តើអ្នកប្រាកដថាចង់លុបបុគ្គលិកនេះឬ?",
+            "cancelled": "បានបោះបង់",
+            "ok": "លុប"
+          }
+        },
+        "inventory_location": {
+          "label": "ទីតាំងស្តុក",
+          "n.o": "ល.រ",
+          "name": "ឈ្មោះ",
+          "inventory": "ស្តុក",
+          "products": "ផលិតផល",
+          "create": {
+            "label": "បង្កើតទីតាំងស្តុក",
+            "name": "ឈ្មោះ",
+            "address": "អាសយដ្ឋាន",
+            "latitude": "រយៈទទឹង",
+            "longitude": "រយៈបណ្ដោយ",
+            "description": "សេចក្តីពិពណ៌នា...",
+            "find_address": "ស្វែងរកអាសយដ្ឋាន...",
+            "done": "រួចរាល់"
+          },
+          "edit": {
+            "label": "កែប្រែ",
+            "edit_inventory_locations": "កែប្រែទីតាំងស្តុក",
+            "name": "ឈ្មោះ",
+            "address": "អាសយដ្ឋាន",
+            "latitude": "រយៈទទឹង",
+            "longitude": "រយៈបណ្ដោយ",
+            "description": "សេចក្តីពិពណ៌នា...",
+            "find_address": "ស្វែងរកអាសយដ្ឋាន...",
+            "done": "រួចរាល់"
+          },
+          "delete": {
+            "label": "លុប",
+            "confirm": "បញ្ជាក់លុប",
+            "message": "តើអ្នកប្រាកដថាចង់លុបទីតាំងស្តុកនេះឬ?",
+            "cancelled": "បានបោះបង់",
+            "ok": "លុប"
+          }
+        },
+        "contact": {
+          "label": "ទំនាក់ទំនង",
+          "phone_number": "លេខទូរស័ព្ទ",
+          "email": "អ៊ីមែល",
+          "address": "អាសយដ្ឋាន",
+          "latitude": "រយៈទទឹង",
+          "longitude": "រយៈបណ្ដោយ",
+          "find_address": "ស្វែងរកអាសយដ្ឋាន...",
+          "done": "រួចរាល់"
+        },
+        "catalog": {
+          "label": "កាតាឡុក",
+          "type": {
+            "label": "ប្រភេទ",
+            "n.o": "ល.រ",
+            "name": "ឈ្មោះ",
+            "product": "ផលិតផល",
+            "create": {
+              "label": "បង្កើត",
+              "create_type": "បង្កើតប្រភេទ",
+              "name": "ឈ្មោះ",
+              "decription": "សេចក្តីពិពណ៌នា",
+              "done": "រួចរាល់"
+            },
+            "edit": {
+              "label": "កែប្រែ",
+              "edit_type": "កែប្រែប្រភេទ",
+              "name": "ឈ្មោះ",
+              "decription": "សេចក្តីពិពណ៌នា",
+              "done": "រួចរាល់"
+            },
+            "delete": {
+              "label": "លុប",
+              "confirm": "បញ្ជាក់លុប",
+              "message": "តើអ្នកប្រាកដថាចង់លុបប្រភេទនេះឬ?",
+              "cancelled": "បានបោះបង់",
+              "ok": "លុប"
+            }
+          },
+          "manufacturer": {
+            "label": "ក្រុមហ៊ុនផលិត",
+            "n.o": "ល.រ",
+            "name": "ឈ្មោះ",
+            "product": "ផលិតផល",
+            "create": {
+              "label": "បង្កើត",
+              "create_manufacturer": "បង្កើតក្រុមហ៊ុនផលិត",
+              "name": "ឈ្មោះ",
+              "website": "គេហទំព័រ",
+              "decription": "សេចក្តីពិពណ៌នា",
+              "done": "រួចរាល់"
+            },
+            "edit": {
+              "label": "កែប្រែ",
+              "edit_manufacturer": "កែប្រែក្រុមហ៊ុនផលិត",
+              "name": "ឈ្មោះ",
+              "website": "គេហទំព័រ",
+              "decription": "សេចក្តីពិពណ៌នា",
+              "done": "រួចរាល់"
+            },
+            "delete": {
+              "label": "លុប",
+              "confirm": "បញ្ជាក់លុប",
+              "message": "តើអ្នកប្រាកដថាចង់លុបក្រុមហ៊ុនផលិតនេះឬ?",
+              "cancelled": "បានបោះបង់",
+              "ok": "លុប"
+            }
+          },
+          "brand": {
+            "label": "ម៉ាក",
+            "n.o": "ល.រ",
+            "name": "ឈ្មោះ",
+            "product": "ផលិតផល",
+            "create": {
+              "label": "បង្កើត",
+              "create_brand": "បង្កើតម៉ាក",
+              "name": "ឈ្មោះ",
+              "decription": "សេចក្តីពិពណ៌នា",
+              "done": "រួចរាល់"
+            },
+            "edit": {
+              "label": "កែប្រែ",
+              "edit_brand": "កែប្រែម៉ាក",
+              "name": "ឈ្មោះ",
+              "decription": "សេចក្តីពិពណ៌នា",
+              "done": "រួចរាល់"
+            },
+            "delete": {
+              "label": "លុប",
+              "confirm": "បញ្ជាក់ការលុប",
+              "message": "តើអ្នកប្រាកដថាចង់លុបម៉ាកនេះឬ?",
+              "cancelled": "បានបោះបង់",
+              "ok": "លុប"
+            }
+          },
+          "tags": {
+            "label": "ស្លាក",
+            "n.o": "ល.រ",
+            "name": "ឈ្មោះ",
+            "product": "ផលិតផល",
+            "create": {
+              "label": "បង្កើត",
+              "create_tag": "បង្កើតស្លាក",
+              "name_kh": "ឈ្មោះ (ខ្មែរ)",
+              "note": "កំណត់សម្គាល់",
+              "done": "រួចរាល់"
+            },
+            "edit": {
+              "label": "កែប្រែ",
+              "edit_tag": "កែប្រែស្លាក",
+              "name_kh": "ឈ្មោះ (ខ្មែរ)",
+              "note": "កំណត់សម្គាល់",
+              "done": "រួចរាល់"
+            },
+            "delete": {
+              "label": "លុប",
+              "confirm": "បញ្ជាក់លុប",
+              "message": "តើអ្នកប្រាកដថាចង់លុបស្លាកនេះឬ?",
+              "cancelled": "បានបោះបង់",
+              "ok": "លុប"
+            }
+          }
+        },
+        "expense": {
+          "label": "ចំណាយ",
+          "source_of_expense": {
+            "label": "ប្រភពចំណាយ",
+            "n.o": "ល.រ",
+            "name": "ឈ្មោះ",
+            "categories": "ប្រភេទ",
+            "create": {
+              "label": "បង្កើត",
+              "create_source_of_expense": "បង្កើតប្រភពចំណាយ",
+              "name_kh": "ឈ្មោះ (ខ្មែរ)",
+              "note": "កំណត់សម្គាល់",
+              "done": "រួចរាល់"
+            },
+            "edit": {
+              "label": "កែប្រែ",
+              "edit_source_of_expense": "កែប្រែប្រភពចំណាយ",
+              "name_kh": "ឈ្មោះ (ខ្មែរ)",
+              "note": "កំណត់សម្គាល់",
+              "done": "រួចរាល់"
+            },
+            "delete": {
+              "label": "លុប",
+              "confirm": "បញ្ជាក់លុប",
+              "message": "តើអ្នកប្រាកដថាចង់លុបប្រភពចំណាយនេះឬ?",
+              "cancelled": "បានបោះបង់",
+              "ok": "លុប"
+            }
+          },
+          "expense_type": {
+            "label": "ប្រភេទចំណាយ",
+            "n.o": "ល.រ",
+            "name": "ឈ្មោះ",
+            "expense": "ចំណាយ",
+            "create": {
+              "label": "បង្កើត",
+              "create_expense_type": "បង្កើតប្រភេទចំណាយ",
+              "name": "ឈ្មោះ",
+              "type": "ប្រភេទ",
+              "decription": "សេចក្តីពិពណ៌នា",
+              "done": "រួចរាល់"
+            },
+            "edit": {
+              "label": "កែប្រែ",
+              "edit_expense_type": "កែប្រែប្រភេទចំណាយ",
+              "name": "ឈ្មោះ",
+              "type": "ប្រភេទ",
+              "decription": "សេចក្តីពិពណ៌នា",
+              "done": "រួចរាល់"
+            },
+            "delete": {
+              "label": "លុប",
+              "confirm": "បញ្ជាក់លុប",
+              "message": "តើអ្នកប្រាកដថាចង់លុបប្រភេទចំណាយនេះឬ?",
+              "cancelled": "បានបោះបង់",
+              "ok": "លុប"
+            }
+          },
+          "supplier": {
+            "label": "អ្នកផ្គត់ផ្គង់",
+            "n.o": "ល.រ",
+            "name": "ឈ្មោះ",
+            "create": {
+              "label": "បង្កើត",
+              "create_supplier": "បង្កើតអ្នកផ្គត់ផ្គង់",
+              "name": "ឈ្មោះ",
+              "payer_name": "ឈ្មោះអ្នកបង់ប្រាក់",
+              "email": "អ៊ីមែល",
+              "phone_number": "លេខទូរស័ព្ទ",
+              "address": "អាសយដ្ឋាន",
+              "decription": "សេចក្តីពិពណ៌នា",
+              "done": "រួចរាល់"
+            },
+            "edit": {
+              "label": "កែប្រែ",
+              "edit_supplier": "កែប្រែអ្នកផ្គត់ផ្គង់",
+              "name": "ឈ្មោះ",
+              "payer_name": "ឈ្មោះអ្នកបង់ប្រាក់",
+              "email": "អ៊ីមែល",
+              "phone_number": "លេខទូរស័ព្ទ",
+              "address": "អាសយដ្ឋាន",
+              "decription": "សេចក្តីពិពណ៌នា",
+              "done": "រួចរាល់"
+            },
+            "delete": {
+              "label": "លុប",
+              "confirm": "បញ្ជាក់លុប",
+              "message": "តើអ្នកប្រាកដថាចង់លុបអ្នកផ្គត់ផ្គង់នេះឬ?",
+              "cancelled": "បានបោះបង់",
+              "ok": "លុប"
+            }
+          }
+        },
+        "setting": {
+          "label": "ការកំណត់",
+          "customer_segment": {
+            "label": "ក្រុមអតិថិជន",
+            "n.o": "ល.រ",
+            "name": "ឈ្មោះ",
+            "create_customer_segment": {
+              "label": "បង្កើតក្រុមអតិថិជន",
+              "name": "ឈ្មោះ",
+              "decription": "សេចក្តីពិពណ៌នា",
+              "default": "លំនាំដើម",
+              "done": "រួចរាល់"
+            },
+            "edit_customer_segment": {
+              "label": "កែប្រែក្រុមអតិថិជន",
+              "name": "ឈ្មោះ",
+              "decription": "សេចក្តីពិពណ៌នា",
+              "default": "លំនាំដើម",
+              "done": "រួចរាល់"
+            },
+            "delete": {
+              "label": "លុប",
+              "confirm": "បញ្ជាក់លុប",
+              "message": "តើអ្នកប្រាកដថាចង់លុបក្រុមអតិថិជននេះឬ?",
+              "cancelled": "បានបោះបង់",
+              "ok": "លុប"
+            }
+          },
+          "role": {
+            "label": "តួនាទី",
+            "n.o": "ល.រ",
+            "name": "ឈ្មោះ",
+            "create": {
+              "label": "បង្កើតតួនាទី",
+              "name": "ឈ្មោះ",
+              "decription": "សេចក្តីពិពណ៌នា",
+              "permission": {
+                "label": "សិទ្ធិប្រើប្រាស់",
+                "analytics_management": "ការគ្រប់គ្រងវិភាគទិន្នន័យ",
+                "api_management": "ការគ្រប់គ្រង API",
+                "bundle_management": "ការគ្រប់គ្រងកញ្ចប់ផលិតផល",
+                "channel_management": "ការគ្រប់គ្រងឆានែល",
+                "customer_management": "ការគ្រប់គ្រងអតិថិជន",
+                "expense_management": "ការគ្រប់គ្រងការចំណាយ",
+                "food_berverage_management": "ការគ្រប់គ្រងអាហារ និងភេសជ្ជៈ",
+                "goal_management": "ការគ្រប់គ្រងគោលដៅ",
+                "inventory_management": "ការគ្រប់គ្រងសារពើភណ្ឌ",
+                "marketing_management": "ការគ្រប់គ្រងទីផ្សារ",
+                "notification_management": "ការគ្រប់គ្រងការជូនដំណឹង",
+                "order_management": "ការគ្រប់គ្រងការបញ្ជាទិញ",
+                "payment_management": "ការគ្រប់គ្រងការទូទាត់",
+                "pos_management": "ការគ្រប់គ្រងប្រព័ន្ធ POS",
+                "product_management": "ការគ្រប់គ្រងផលិតផល",
+                "report_management": "ការគ្រប់គ្រងរបាយការណ៍",
+                "return_management": "ការគ្រប់គ្រងការបង្រួម/ត្រឡប់ទំនិញ",
+                "security_management": "ការគ្រប់គ្រងសុវត្ថិភាព",
+                "setting_management": "ការគ្រប់គ្រងការកំណត់",
+                "shipping_management": "ការគ្រប់គ្រងការដឹកជញ្ជូន",
+                "staff_management": "ការគ្រប់គ្រងបុគ្គលិក",
+                "store_management": "ការគ្រប់គ្រងហាង",
+                "supplier_management": "ការគ្រប់គ្រងអ្នកផ្គត់ផ្គង់",
+                "tax_management": "ការគ្រប់គ្រងពន្ធ"
+              },
+              "done": "រួចរាល់"
+            },
+            "edit": {
+              "label": "កែប្រែតួនាទី",
+              "name": "ឈ្មោះ",
+              "decription": "សេចក្តីពិពណ៌នា",
+              "permission": {
+                "label": "សិទ្ធិប្រើប្រាស់",
+                "analytics_management": "ការគ្រប់គ្រងវិភាគទិន្នន័យ",
+                "api_management": "ការគ្រប់គ្រង API",
+                "bundle_management": "ការគ្រប់គ្រងកញ្ចប់ផលិតផល",
+                "channel_management": "ការគ្រប់គ្រងឆានែល",
+                "customer_management": "ការគ្រប់គ្រងអតិថិជន",
+                "expense_management": "ការគ្រប់គ្រងការចំណាយ",
+                "food_berverage_management": "ការគ្រប់គ្រងអាហារ និងភេសជ្ជៈ",
+                "goal_management": "ការគ្រប់គ្រងគោលដៅ",
+                "inventory_management": "ការគ្រប់គ្រងសារពើភណ្ឌ",
+                "marketing_management": "ការគ្រប់គ្រងទីផ្សារ",
+                "notification_management": "ការគ្រប់គ្រងការជូនដំណឹង",
+                "order_management": "ការគ្រប់គ្រងការបញ្ជាទិញ",
+                "payment_management": "ការគ្រប់គ្រងការទូទាត់",
+                "pos_management": "ការគ្រប់គ្រងប្រព័ន្ធ POS",
+                "product_management": "ការគ្រប់គ្រងផលិតផល",
+                "report_management": "ការគ្រប់គ្រងរបាយការណ៍",
+                "return_management": "ការគ្រប់គ្រងការបង្រួម/ត្រឡប់ទំនិញ",
+                "security_management": "ការគ្រប់គ្រងសុវត្ថិភាព",
+                "setting_management": "ការគ្រប់គ្រងការកំណត់",
+                "shipping_management": "ការគ្រប់គ្រងការដឹកជញ្ជូន",
+                "staff_management": "ការគ្រប់គ្រងបុគ្គលិក",
+                "store_management": "ការគ្រប់គ្រងហាង",
+                "supplier_management": "ការគ្រប់គ្រងអ្នកផ្គត់ផ្គង់",
+                "tax_management": "ការគ្រប់គ្រងពន្ធ"
+              },
+              "done": "រួចរាល់"
+            },
+            "delete": {
+              "label": "លុប",
+              "confirm": "បញ្ជាក់លុប",
+              "message": "តើអ្នកប្រាកដថាចង់លុបទម្រង់តួនាទីនេះឬ?",
+              "cancelled": "បានបោះបង់",
+              "ok": "លុប"
+            }
+          }
+        }
+      }
+    },
+    "no_data": "គ្មានទិន្នន័យ"
+  }
+}

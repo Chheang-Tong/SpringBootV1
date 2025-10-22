@@ -1,2 +1,2 @@
-chmod +x runner.sh
-./runner.sh
+chmod +x dev.sh
+./dev.sh
