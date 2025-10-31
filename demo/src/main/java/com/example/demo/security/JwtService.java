@@ -1,39 +1,49 @@
 package com.example.demo.security;
 
 import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import java.nio.charset.StandardCharsets;
-import java.security.Key;
+import javax.crypto.SecretKey;
 import java.time.Instant;
 import java.util.Date;
 
-import javax.crypto.SecretKey;
-
 @Service
 public class JwtService {
-    private final Key key;
+    private final SecretKey key;
     private final long expMinutes;
 
-    public JwtService(@Value("${app.jwt.secret}") String secret,
+    public JwtService(
+            @Value("${app.jwt.secret}") String secretBase64,
             @Value("${app.jwt.exp-minutes:60}") long expMinutes) {
-        this.key = Keys.hmacShaKeyFor(secret.getBytes(StandardCharsets.UTF_8));
+
+        // 1) Decode Base64
+        byte[] keyBytes = Decoders.BASE64.decode(secretBase64);
+
+        // 2) Build key (validates size >= 256 bits for HS256)
+        this.key = Keys.hmacShaKeyFor(keyBytes);
+
         this.expMinutes = expMinutes;
     }
 
-    public String generateToken(String users) {
+    public String generateToken(String subject) {
         Instant now = Instant.now();
         return Jwts.builder()
-                .subject(users)
+                .subject(subject)
                 .issuedAt(Date.from(now))
                 .expiration(Date.from(now.plusSeconds(expMinutes * 60)))
-                .signWith(key)
+                .signWith(key, Jwts.SIG.HS256) // explicit alg
                 .compact();
     }
 
     public String extractSubject(String token) {
-        return Jwts.parser().verifyWith((SecretKey) key).build().parseSignedClaims(token).getPayload().getSubject();
+        return Jwts.parser()
+                .verifyWith(key)
+                .build()
+                .parseSignedClaims(token)
+                .getPayload()
+                .getSubject();
     }
 }
